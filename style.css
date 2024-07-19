@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+section{
+  margin: 10px;
+  width: 400px;
+  min-width: 200px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.174);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+}
+section h1{
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+}
+section #value{
+  font-size: 1.1em;
+  text-align: center;
+  display: block;
+  padding: 10px 20px;
+  border: 1px solid #aaa;
+}
+
+section .paleta{
+  border: 1px solid #aaa;
+  width: 200px;
+  height: 200px;
+  margin: 30px auto;
+}
+section div{
+  display: flex;
+  flex-direction: column;
+
+}
+section div p{
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+section div input{
+  margin-bottom: 20px;
+  width: 90%;
+}
+section div h2{
+  font-weight: normal;
+  margin-bottom: 10px;
+}
